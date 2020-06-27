@@ -1,0 +1,29 @@
+﻿<UserControl x:Class="WpfApp1.RegisterControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfApp1"
+             mc:Ignorable="d" 
+             d:DesignHeight="424.8" d:DesignWidth="830">
+    <Grid Margin="24,0,0.4,-3.2" RenderTransformOrigin="0.437,0.488">
+        <Grid.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform/>
+                <RotateTransform Angle="-0.13"/>
+                <TranslateTransform/>
+            </TransformGroup>
+        </Grid.RenderTransform>
+        <Label Content="Label" VerticalAlignment="Top" Margin="586,58,166,0" RenderTransformOrigin="-6.146,1.441"/>
+        <TextBox x:Name="re_password" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="630,241,0,0"/>
+        <TextBox x:Name="password" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="630,169,0,0"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120" Margin="630,107,0,0"/>
+        <Label Content="Login"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,104,0,0"/>
+        <Label Content="Hasło"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,174,0,0"/>
+        <Label Content="Re-Hasło"  HorizontalAlignment="Left" VerticalAlignment="Top" Margin="572,241,0,0"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="630,302,0,0"/>
+        <Button Content="Button" HorizontalAlignment="Left" VerticalAlignment="Top" Width="75" Margin="630,349,0,0" Click="Button_Click"/>
+
+    </Grid>
+</UserControl>
